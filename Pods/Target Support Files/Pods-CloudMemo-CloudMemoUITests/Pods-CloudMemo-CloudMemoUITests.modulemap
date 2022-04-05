@@ -1,0 +1,6 @@
+framework module Pods_CloudMemo_CloudMemoUITests {
+  umbrella header "Pods-CloudMemo-CloudMemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

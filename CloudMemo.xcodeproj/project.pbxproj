@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACCC11F88E946A6162C9A655 /* Pods_CloudMemo_CloudMemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC352B42F3574DB63B0344C2 /* Pods_CloudMemo_CloudMemoUITests.framework */; };
+		B0769A6B27F49BBE00D13ABF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0769A6A27F49BBE00D13ABF /* Constants.swift */; };
+		B0769A6F27F49E0F00D13ABF /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0769A6E27F49E0F00D13ABF /* DirectoryViewController.swift */; };
+		B0769A7127F49FA400D13ABF /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0769A7027F49FA400D13ABF /* Container.swift */; };
+		B0B884CC27F7E3380045FCFE /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B884CB27F7E3380045FCFE /* Folder.swift */; };
+		B0B884CE27F7E4750045FCFE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B884CD27F7E4750045FCFE /* File.swift */; };
+		B0B884D127F8DE240045FCFE /* ContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B884CF27F8DE230045FCFE /* ContainerCell.swift */; };
+		B0B884D227F8DE240045FCFE /* ContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B884D027F8DE240045FCFE /* ContainerCell.xib */; };
+		B0BE5A8927F23F52005D6050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5A8827F23F52005D6050 /* AppDelegate.swift */; };
+		B0BE5A8B27F23F52005D6050 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5A8A27F23F52005D6050 /* SceneDelegate.swift */; };
+		B0BE5A8D27F23F52005D6050 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5A8C27F23F52005D6050 /* RootViewController.swift */; };
+		B0BE5A9027F23F52005D6050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BE5A8E27F23F52005D6050 /* Main.storyboard */; };
+		B0BE5A9227F23F56005D6050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BE5A9127F23F56005D6050 /* Assets.xcassets */; };
+		B0BE5A9527F23F56005D6050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BE5A9327F23F56005D6050 /* LaunchScreen.storyboard */; };
+		B0BE5AA027F23F57005D6050 /* CloudMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5A9F27F23F57005D6050 /* CloudMemoTests.swift */; };
+		B0BE5AAA27F23F57005D6050 /* CloudMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5AA927F23F57005D6050 /* CloudMemoUITests.swift */; };
+		B0BE5AAC27F23F57005D6050 /* CloudMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5AAB27F23F57005D6050 /* CloudMemoUITestsLaunchTests.swift */; };
+		B0BE5AB927F25458005D6050 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0BE5AB827F25458005D6050 /* GoogleService-Info.plist */; };
+		B0BE5AC127F26D46005D6050 /* AestheticRegular-8M5dM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0BE5AC027F26D46005D6050 /* AestheticRegular-8M5dM.ttf */; };
+		B0BE5AC327F2A24B005D6050 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5AC227F2A24B005D6050 /* SignInViewController.swift */; };
+		B0BE5AC527F2A265005D6050 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5AC427F2A265005D6050 /* RegisterViewController.swift */; };
+		C1575AA2CE2D203280347C7C /* Pods_CloudMemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCD378036689E89B285F00 /* Pods_CloudMemoTests.framework */; };
+		D5426CE9BD67242154CD733D /* Pods_CloudMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABFB11228A21F1D0FA79AC /* Pods_CloudMemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0BE5A9C27F23F57005D6050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BE5A7D27F23F52005D6050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0BE5A8427F23F52005D6050;
+			remoteInfo = CloudMemo;
+		};
+		B0BE5AA627F23F57005D6050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BE5A7D27F23F52005D6050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0BE5A8427F23F52005D6050;
+			remoteInfo = CloudMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25ABFB11228A21F1D0FA79AC /* Pods_CloudMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD6BB075EB41431FC8D4C60 /* Pods-CloudMemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CloudMemoTests/Pods-CloudMemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4158A2D3AB2B5629760CD6BF /* Pods-CloudMemo-CloudMemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemo-CloudMemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CloudMemo-CloudMemoUITests/Pods-CloudMemo-CloudMemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53B8350DFF21E882CF282109 /* Pods-CloudMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemo.debug.xcconfig"; path = "Target Support Files/Pods-CloudMemo/Pods-CloudMemo.debug.xcconfig"; sourceTree = "<group>"; };
+		751513144AD1A692710F430B /* Pods-CloudMemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemoTests.release.xcconfig"; path = "Target Support Files/Pods-CloudMemoTests/Pods-CloudMemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9ABCD378036689E89B285F00 /* Pods_CloudMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0769A6A27F49BBE00D13ABF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B0769A6E27F49E0F00D13ABF /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
+		B0769A7027F49FA400D13ABF /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		B0B884CB27F7E3380045FCFE /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		B0B884CD27F7E4750045FCFE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B0B884CF27F8DE230045FCFE /* ContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerCell.swift; sourceTree = "<group>"; };
+		B0B884D027F8DE240045FCFE /* ContainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContainerCell.xib; sourceTree = "<group>"; };
+		B0BE5A8527F23F52005D6050 /* CloudMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BE5A8827F23F52005D6050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0BE5A8A27F23F52005D6050 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0BE5A8C27F23F52005D6050 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B0BE5A8F27F23F52005D6050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0BE5A9127F23F56005D6050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0BE5A9427F23F56005D6050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0BE5A9627F23F56005D6050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BE5A9B27F23F57005D6050 /* CloudMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BE5A9F27F23F57005D6050 /* CloudMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudMemoTests.swift; sourceTree = "<group>"; };
+		B0BE5AA527F23F57005D6050 /* CloudMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BE5AA927F23F57005D6050 /* CloudMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudMemoUITests.swift; sourceTree = "<group>"; };
+		B0BE5AAB27F23F57005D6050 /* CloudMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0BE5AB827F25458005D6050 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0BE5AC027F26D46005D6050 /* AestheticRegular-8M5dM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AestheticRegular-8M5dM.ttf"; path = "../../../../../Downloads/aesthetic-font/AestheticRegular-8M5dM.ttf"; sourceTree = "<group>"; };
+		B0BE5AC227F2A24B005D6050 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B0BE5AC427F2A265005D6050 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CC352B42F3574DB63B0344C2 /* Pods_CloudMemo_CloudMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemo_CloudMemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA9E69318FAD93C11D8C198 /* Pods-CloudMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemo.release.xcconfig"; path = "Target Support Files/Pods-CloudMemo/Pods-CloudMemo.release.xcconfig"; sourceTree = "<group>"; };
+		EC106B81DA322A54F8A4E35C /* Pods-CloudMemo-CloudMemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemo-CloudMemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CloudMemo-CloudMemoUITests/Pods-CloudMemo-CloudMemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0BE5A8227F23F52005D6050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5426CE9BD67242154CD733D /* Pods_CloudMemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE5A9827F23F57005D6050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1575AA2CE2D203280347C7C /* Pods_CloudMemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE5AA227F23F57005D6050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCC11F88E946A6162C9A655 /* Pods_CloudMemo_CloudMemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE0E5DE9DFC322244EB9F1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25ABFB11228A21F1D0FA79AC /* Pods_CloudMemo.framework */,
+				CC352B42F3574DB63B0344C2 /* Pods_CloudMemo_CloudMemoUITests.framework */,
+				9ABCD378036689E89B285F00 /* Pods_CloudMemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B0CE7DBAB3811E2E17C1AB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B8350DFF21E882CF282109 /* Pods-CloudMemo.debug.xcconfig */,
+				EBA9E69318FAD93C11D8C198 /* Pods-CloudMemo.release.xcconfig */,
+				4158A2D3AB2B5629760CD6BF /* Pods-CloudMemo-CloudMemoUITests.debug.xcconfig */,
+				EC106B81DA322A54F8A4E35C /* Pods-CloudMemo-CloudMemoUITests.release.xcconfig */,
+				3FD6BB075EB41431FC8D4C60 /* Pods-CloudMemoTests.debug.xcconfig */,
+				751513144AD1A692710F430B /* Pods-CloudMemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0BE5A7C27F23F52005D6050 = {
+			isa = PBXGroup;
+			children = (
+				B0BE5A8727F23F52005D6050 /* CloudMemo */,
+				B0BE5A9E27F23F57005D6050 /* CloudMemoTests */,
+				B0BE5AA827F23F57005D6050 /* CloudMemoUITests */,
+				B0BE5A8627F23F52005D6050 /* Products */,
+				6B0CE7DBAB3811E2E17C1AB2 /* Pods */,
+				5BE0E5DE9DFC322244EB9F1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0BE5A8627F23F52005D6050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE5A8527F23F52005D6050 /* CloudMemo.app */,
+				B0BE5A9B27F23F57005D6050 /* CloudMemoTests.xctest */,
+				B0BE5AA527F23F57005D6050 /* CloudMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0BE5A8727F23F52005D6050 /* CloudMemo */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE5AB827F25458005D6050 /* GoogleService-Info.plist */,
+				B0BE5A8827F23F52005D6050 /* AppDelegate.swift */,
+				B0BE5A8A27F23F52005D6050 /* SceneDelegate.swift */,
+				B0BE5ABA27F2590E005D6050 /* Model */,
+				B0BE5ABC27F2595A005D6050 /* View */,
+				B0BE5ABB27F2592A005D6050 /* Controller */,
+				B0BE5A9127F23F56005D6050 /* Assets.xcassets */,
+				B0BE5A9327F23F56005D6050 /* LaunchScreen.storyboard */,
+				B0BE5A9627F23F56005D6050 /* Info.plist */,
+				B0769A6A27F49BBE00D13ABF /* Constants.swift */,
+				B0BE5ABD27F26CFD005D6050 /* Font */,
+			);
+			path = CloudMemo;
+			sourceTree = "<group>";
+		};
+		B0BE5A9E27F23F57005D6050 /* CloudMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE5A9F27F23F57005D6050 /* CloudMemoTests.swift */,
+			);
+			path = CloudMemoTests;
+			sourceTree = "<group>";
+		};
+		B0BE5AA827F23F57005D6050 /* CloudMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE5AA927F23F57005D6050 /* CloudMemoUITests.swift */,
+				B0BE5AAB27F23F57005D6050 /* CloudMemoUITestsLaunchTests.swift */,
+			);
+			path = CloudMemoUITests;
+			sourceTree = "<group>";
+		};
+		B0BE5ABA27F2590E005D6050 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0769A7027F49FA400D13ABF /* Container.swift */,
+				B0B884CB27F7E3380045FCFE /* Folder.swift */,
+				B0B884CD27F7E4750045FCFE /* File.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0BE5ABB27F2592A005D6050 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE5A8C27F23F52005D6050 /* RootViewController.swift */,
+				B0BE5AC227F2A24B005D6050 /* SignInViewController.swift */,
+				B0BE5AC427F2A265005D6050 /* RegisterViewController.swift */,
+				B0769A6E27F49E0F00D13ABF /* DirectoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B0BE5ABC27F2595A005D6050 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE5A8E27F23F52005D6050 /* Main.storyboard */,
+				B0B884CF27F8DE230045FCFE /* ContainerCell.swift */,
+				B0B884D027F8DE240045FCFE /* ContainerCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0BE5ABD27F26CFD005D6050 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE5AC027F26D46005D6050 /* AestheticRegular-8M5dM.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0BE5A8427F23F52005D6050 /* CloudMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BE5AAF27F23F57005D6050 /* Build configuration list for PBXNativeTarget "CloudMemo" */;
+			buildPhases = (
+				C9B9BD3BAE21381534F484FD /* [CP] Check Pods Manifest.lock */,
+				B0BE5A8127F23F52005D6050 /* Sources */,
+				B0BE5A8227F23F52005D6050 /* Frameworks */,
+				B0BE5A8327F23F52005D6050 /* Resources */,
+				914829FE7F4270BB14952367 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudMemo;
+			productName = CloudMemo;
+			productReference = B0BE5A8527F23F52005D6050 /* CloudMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0BE5A9A27F23F57005D6050 /* CloudMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BE5AB227F23F57005D6050 /* Build configuration list for PBXNativeTarget "CloudMemoTests" */;
+			buildPhases = (
+				49D7B17BD4406416A665EDAE /* [CP] Check Pods Manifest.lock */,
+				B0BE5A9727F23F57005D6050 /* Sources */,
+				B0BE5A9827F23F57005D6050 /* Frameworks */,
+				B0BE5A9927F23F57005D6050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0BE5A9D27F23F57005D6050 /* PBXTargetDependency */,
+			);
+			name = CloudMemoTests;
+			productName = CloudMemoTests;
+			productReference = B0BE5A9B27F23F57005D6050 /* CloudMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0BE5AA427F23F57005D6050 /* CloudMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BE5AB527F23F57005D6050 /* Build configuration list for PBXNativeTarget "CloudMemoUITests" */;
+			buildPhases = (
+				A849A4CA68CC4B005C943FCF /* [CP] Check Pods Manifest.lock */,
+				B0BE5AA127F23F57005D6050 /* Sources */,
+				B0BE5AA227F23F57005D6050 /* Frameworks */,
+				B0BE5AA327F23F57005D6050 /* Resources */,
+				9314723E7B19C55DF08218C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0BE5AA727F23F57005D6050 /* PBXTargetDependency */,
+			);
+			name = CloudMemoUITests;
+			productName = CloudMemoUITests;
+			productReference = B0BE5AA527F23F57005D6050 /* CloudMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0BE5A7D27F23F52005D6050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B0BE5A8427F23F52005D6050 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B0BE5A9A27F23F57005D6050 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B0BE5A8427F23F52005D6050;
+					};
+					B0BE5AA427F23F57005D6050 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B0BE5A8427F23F52005D6050;
+					};
+				};
+			};
+			buildConfigurationList = B0BE5A8027F23F52005D6050 /* Build configuration list for PBXProject "CloudMemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0BE5A7C27F23F52005D6050;
+			productRefGroup = B0BE5A8627F23F52005D6050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0BE5A8427F23F52005D6050 /* CloudMemo */,
+				B0BE5A9A27F23F57005D6050 /* CloudMemoTests */,
+				B0BE5AA427F23F57005D6050 /* CloudMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0BE5A8327F23F52005D6050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BE5A9527F23F56005D6050 /* LaunchScreen.storyboard in Resources */,
+				B0BE5AB927F25458005D6050 /* GoogleService-Info.plist in Resources */,
+				B0BE5A9227F23F56005D6050 /* Assets.xcassets in Resources */,
+				B0B884D227F8DE240045FCFE /* ContainerCell.xib in Resources */,
+				B0BE5A9027F23F52005D6050 /* Main.storyboard in Resources */,
+				B0BE5AC127F26D46005D6050 /* AestheticRegular-8M5dM.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE5A9927F23F57005D6050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE5AA327F23F57005D6050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49D7B17BD4406416A665EDAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudMemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		914829FE7F4270BB14952367 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudMemo/Pods-CloudMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudMemo/Pods-CloudMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudMemo/Pods-CloudMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9314723E7B19C55DF08218C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudMemo-CloudMemoUITests/Pods-CloudMemo-CloudMemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudMemo-CloudMemoUITests/Pods-CloudMemo-CloudMemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudMemo-CloudMemoUITests/Pods-CloudMemo-CloudMemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A849A4CA68CC4B005C943FCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudMemo-CloudMemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B9BD3BAE21381534F484FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0BE5A8127F23F52005D6050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BE5AC327F2A24B005D6050 /* SignInViewController.swift in Sources */,
+				B0BE5AC527F2A265005D6050 /* RegisterViewController.swift in Sources */,
+				B0BE5A8D27F23F52005D6050 /* RootViewController.swift in Sources */,
+				B0769A6F27F49E0F00D13ABF /* DirectoryViewController.swift in Sources */,
+				B0BE5A8927F23F52005D6050 /* AppDelegate.swift in Sources */,
+				B0B884CE27F7E4750045FCFE /* File.swift in Sources */,
+				B0769A7127F49FA400D13ABF /* Container.swift in Sources */,
+				B0BE5A8B27F23F52005D6050 /* SceneDelegate.swift in Sources */,
+				B0B884D127F8DE240045FCFE /* ContainerCell.swift in Sources */,
+				B0769A6B27F49BBE00D13ABF /* Constants.swift in Sources */,
+				B0B884CC27F7E3380045FCFE /* Folder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE5A9727F23F57005D6050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BE5AA027F23F57005D6050 /* CloudMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE5AA127F23F57005D6050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BE5AAC27F23F57005D6050 /* CloudMemoUITestsLaunchTests.swift in Sources */,
+				B0BE5AAA27F23F57005D6050 /* CloudMemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0BE5A9D27F23F57005D6050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0BE5A8427F23F52005D6050 /* CloudMemo */;
+			targetProxy = B0BE5A9C27F23F57005D6050 /* PBXContainerItemProxy */;
+		};
+		B0BE5AA727F23F57005D6050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0BE5A8427F23F52005D6050 /* CloudMemo */;
+			targetProxy = B0BE5AA627F23F57005D6050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0BE5A8E27F23F52005D6050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BE5A8F27F23F52005D6050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0BE5A9327F23F56005D6050 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BE5A9427F23F56005D6050 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0BE5AAD27F23F57005D6050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0BE5AAE27F23F57005D6050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0BE5AB027F23F57005D6050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B8350DFF21E882CF282109 /* Pods-CloudMemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudMemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chunhongchan.CloudMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0BE5AB127F23F57005D6050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA9E69318FAD93C11D8C198 /* Pods-CloudMemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudMemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chunhongchan.CloudMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0BE5AB327F23F57005D6050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD6BB075EB41431FC8D4C60 /* Pods-CloudMemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chunhongchan.CloudMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudMemo.app/CloudMemo";
+			};
+			name = Debug;
+		};
+		B0BE5AB427F23F57005D6050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751513144AD1A692710F430B /* Pods-CloudMemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chunhongchan.CloudMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudMemo.app/CloudMemo";
+			};
+			name = Release;
+		};
+		B0BE5AB627F23F57005D6050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4158A2D3AB2B5629760CD6BF /* Pods-CloudMemo-CloudMemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chunhongchan.CloudMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudMemo;
+			};
+			name = Debug;
+		};
+		B0BE5AB727F23F57005D6050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC106B81DA322A54F8A4E35C /* Pods-CloudMemo-CloudMemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chunhongchan.CloudMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudMemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0BE5A8027F23F52005D6050 /* Build configuration list for PBXProject "CloudMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE5AAD27F23F57005D6050 /* Debug */,
+				B0BE5AAE27F23F57005D6050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BE5AAF27F23F57005D6050 /* Build configuration list for PBXNativeTarget "CloudMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE5AB027F23F57005D6050 /* Debug */,
+				B0BE5AB127F23F57005D6050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BE5AB227F23F57005D6050 /* Build configuration list for PBXNativeTarget "CloudMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE5AB327F23F57005D6050 /* Debug */,
+				B0BE5AB427F23F57005D6050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BE5AB527F23F57005D6050 /* Build configuration list for PBXNativeTarget "CloudMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE5AB627F23F57005D6050 /* Debug */,
+				B0BE5AB727F23F57005D6050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0BE5A7D27F23F52005D6050 /* Project object */;
+}
