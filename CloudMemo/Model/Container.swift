@@ -8,5 +8,7 @@
 import Foundation
 
 protocol Container {
-    var name : String { get set }
+    var name: String { get set }
+    var type : String { get set }
+    var created: Date { get set }
 }

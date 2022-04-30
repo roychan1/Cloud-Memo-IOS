@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import FirebaseAuth
+import Firebase
 
 class SignInViewController: UIViewController {
 
@@ -18,14 +18,21 @@ class SignInViewController: UIViewController {
         // Do any additional setup after loading the view.
         usernameTextField.delegate = self
         passwordTextField.delegate = self
+        navigationController?.navigationBar.prefersLargeTitles = false
+        
+        let barAppearance = UINavigationBarAppearance()
+        barAppearance.configureWithOpaqueBackground()
+        barAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 23, weight: UIFont.Weight.regular)]
+
+        navigationItem.standardAppearance = barAppearance
     }
 
     
     @IBAction func signInButtonPressed(_ sender: UIButton) {
-        if let username = usernameTextField.text, let password = passwordTextField.text {
+        if let email = usernameTextField.text, let password = passwordTextField.text {
             
             //still runs when username and password are blank
-            Auth.auth().signIn(withEmail: username, password: password) { [weak self] authResult, error in
+            Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
 
                 if let err = error {
                     //ERROR, not nil
@@ -36,6 +43,14 @@ class SignInViewController: UIViewController {
                     //NO ERROR, nil
                     self!.performSegue(withIdentifier: K.Segue.login, sender: self)
                 }
+            }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == K.Segue.login {
+            if let directoryViewController = segue.destination as? DirectoryViewController {
+                directoryViewController.currentCollection = Firestore.firestore().collection(K.Firestore.homeFoldersPointer).document(K.Firestore.homeFolders).collection(Auth.auth().currentUser!.uid)
             }
         }
     }

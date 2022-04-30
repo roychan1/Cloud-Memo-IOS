@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACCC11F88E946A6162C9A655 /* Pods_CloudMemo_CloudMemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC352B42F3574DB63B0344C2 /* Pods_CloudMemo_CloudMemoUITests.framework */; };
+		1705D2B80D627A18FCAAB66A /* Pods_CloudMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52632A6EEF2255B98B1B0245 /* Pods_CloudMemo.framework */; };
+		820787E0280CFD3000822826 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820787DF280CFD3000822826 /* Empty.swift */; };
+		8235670428167902003D98C5 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235670328167902003D98C5 /* FileViewController.swift */; };
+		823C490C27FEB63000FD63E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 823C490B27FEB63000FD63E7 /* GoogleService-Info.plist */; };
 		B0769A6B27F49BBE00D13ABF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0769A6A27F49BBE00D13ABF /* Constants.swift */; };
 		B0769A6F27F49E0F00D13ABF /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0769A6E27F49E0F00D13ABF /* DirectoryViewController.swift */; };
 		B0769A7127F49FA400D13ABF /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0769A7027F49FA400D13ABF /* Container.swift */; };
 		B0B884CC27F7E3380045FCFE /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B884CB27F7E3380045FCFE /* Folder.swift */; };
 		B0B884CE27F7E4750045FCFE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B884CD27F7E4750045FCFE /* File.swift */; };
 		B0B884D127F8DE240045FCFE /* ContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B884CF27F8DE230045FCFE /* ContainerCell.swift */; };
-		B0B884D227F8DE240045FCFE /* ContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B884D027F8DE240045FCFE /* ContainerCell.xib */; };
+		B0B884D227F8DE240045FCFE /* ContainerCellNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B884D027F8DE240045FCFE /* ContainerCellNib.xib */; };
 		B0BE5A8927F23F52005D6050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5A8827F23F52005D6050 /* AppDelegate.swift */; };
 		B0BE5A8B27F23F52005D6050 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5A8A27F23F52005D6050 /* SceneDelegate.swift */; };
 		B0BE5A8D27F23F52005D6050 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5A8C27F23F52005D6050 /* RootViewController.swift */; };
@@ -24,12 +27,10 @@
 		B0BE5AA027F23F57005D6050 /* CloudMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5A9F27F23F57005D6050 /* CloudMemoTests.swift */; };
 		B0BE5AAA27F23F57005D6050 /* CloudMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5AA927F23F57005D6050 /* CloudMemoUITests.swift */; };
 		B0BE5AAC27F23F57005D6050 /* CloudMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5AAB27F23F57005D6050 /* CloudMemoUITestsLaunchTests.swift */; };
-		B0BE5AB927F25458005D6050 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0BE5AB827F25458005D6050 /* GoogleService-Info.plist */; };
-		B0BE5AC127F26D46005D6050 /* AestheticRegular-8M5dM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0BE5AC027F26D46005D6050 /* AestheticRegular-8M5dM.ttf */; };
 		B0BE5AC327F2A24B005D6050 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5AC227F2A24B005D6050 /* SignInViewController.swift */; };
 		B0BE5AC527F2A265005D6050 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE5AC427F2A265005D6050 /* RegisterViewController.swift */; };
-		C1575AA2CE2D203280347C7C /* Pods_CloudMemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCD378036689E89B285F00 /* Pods_CloudMemoTests.framework */; };
-		D5426CE9BD67242154CD733D /* Pods_CloudMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABFB11228A21F1D0FA79AC /* Pods_CloudMemo.framework */; };
+		C67B0C1A822B123AFBEBD213 /* Pods_CloudMemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FBB8D891EBC29A2AF2351 /* Pods_CloudMemoTests.framework */; };
+		E0BDAF950F89450906BAC211 /* Pods_CloudMemo_CloudMemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43BB6704B3C9899170A66A4 /* Pods_CloudMemo_CloudMemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,20 +51,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25ABFB11228A21F1D0FA79AC /* Pods_CloudMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9FBB8D891EBC29A2AF2351 /* Pods_CloudMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD6BB075EB41431FC8D4C60 /* Pods-CloudMemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CloudMemoTests/Pods-CloudMemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4158A2D3AB2B5629760CD6BF /* Pods-CloudMemo-CloudMemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemo-CloudMemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CloudMemo-CloudMemoUITests/Pods-CloudMemo-CloudMemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52632A6EEF2255B98B1B0245 /* Pods_CloudMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B8350DFF21E882CF282109 /* Pods-CloudMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemo.debug.xcconfig"; path = "Target Support Files/Pods-CloudMemo/Pods-CloudMemo.debug.xcconfig"; sourceTree = "<group>"; };
 		751513144AD1A692710F430B /* Pods-CloudMemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemoTests.release.xcconfig"; path = "Target Support Files/Pods-CloudMemoTests/Pods-CloudMemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		9ABCD378036689E89B285F00 /* Pods_CloudMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820787DD280CFB4200822826 /* CloudMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820787DE280CFB4200822826 /* CloudMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820787DF280CFD3000822826 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		8235670328167902003D98C5 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		823C490B27FEB63000FD63E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		823C490D27FEB6FC00FD63E7 /* CloudMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0769A6A27F49BBE00D13ABF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B0769A6E27F49E0F00D13ABF /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
 		B0769A7027F49FA400D13ABF /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		B0B884CB27F7E3380045FCFE /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
 		B0B884CD27F7E4750045FCFE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		B0B884CF27F8DE230045FCFE /* ContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerCell.swift; sourceTree = "<group>"; };
-		B0B884D027F8DE240045FCFE /* ContainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContainerCell.xib; sourceTree = "<group>"; };
-		B0BE5A8527F23F52005D6050 /* CloudMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B884D027F8DE240045FCFE /* ContainerCellNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContainerCellNib.xib; sourceTree = "<group>"; };
 		B0BE5A8827F23F52005D6050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BE5A8A27F23F52005D6050 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B0BE5A8C27F23F52005D6050 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -71,16 +77,12 @@
 		B0BE5A9127F23F56005D6050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0BE5A9427F23F56005D6050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0BE5A9627F23F56005D6050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0BE5A9B27F23F57005D6050 /* CloudMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BE5A9F27F23F57005D6050 /* CloudMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudMemoTests.swift; sourceTree = "<group>"; };
-		B0BE5AA527F23F57005D6050 /* CloudMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BE5AA927F23F57005D6050 /* CloudMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudMemoUITests.swift; sourceTree = "<group>"; };
 		B0BE5AAB27F23F57005D6050 /* CloudMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B0BE5AB827F25458005D6050 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B0BE5AC027F26D46005D6050 /* AestheticRegular-8M5dM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AestheticRegular-8M5dM.ttf"; path = "../../../../../Downloads/aesthetic-font/AestheticRegular-8M5dM.ttf"; sourceTree = "<group>"; };
 		B0BE5AC227F2A24B005D6050 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B0BE5AC427F2A265005D6050 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		CC352B42F3574DB63B0344C2 /* Pods_CloudMemo_CloudMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemo_CloudMemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43BB6704B3C9899170A66A4 /* Pods_CloudMemo_CloudMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudMemo_CloudMemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA9E69318FAD93C11D8C198 /* Pods-CloudMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemo.release.xcconfig"; path = "Target Support Files/Pods-CloudMemo/Pods-CloudMemo.release.xcconfig"; sourceTree = "<group>"; };
 		EC106B81DA322A54F8A4E35C /* Pods-CloudMemo-CloudMemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudMemo-CloudMemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CloudMemo-CloudMemoUITests/Pods-CloudMemo-CloudMemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5426CE9BD67242154CD733D /* Pods_CloudMemo.framework in Frameworks */,
+				1705D2B80D627A18FCAAB66A /* Pods_CloudMemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1575AA2CE2D203280347C7C /* Pods_CloudMemoTests.framework in Frameworks */,
+				C67B0C1A822B123AFBEBD213 /* Pods_CloudMemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,23 +108,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCC11F88E946A6162C9A655 /* Pods_CloudMemo_CloudMemoUITests.framework in Frameworks */,
+				E0BDAF950F89450906BAC211 /* Pods_CloudMemo_CloudMemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5BE0E5DE9DFC322244EB9F1B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				25ABFB11228A21F1D0FA79AC /* Pods_CloudMemo.framework */,
-				CC352B42F3574DB63B0344C2 /* Pods_CloudMemo_CloudMemoUITests.framework */,
-				9ABCD378036689E89B285F00 /* Pods_CloudMemoTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		6B0CE7DBAB3811E2E17C1AB2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,32 +128,34 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7902542D783B30253CF1E76E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52632A6EEF2255B98B1B0245 /* Pods_CloudMemo.framework */,
+				D43BB6704B3C9899170A66A4 /* Pods_CloudMemo_CloudMemoUITests.framework */,
+				3E9FBB8D891EBC29A2AF2351 /* Pods_CloudMemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0BE5A7C27F23F52005D6050 = {
 			isa = PBXGroup;
 			children = (
 				B0BE5A8727F23F52005D6050 /* CloudMemo */,
 				B0BE5A9E27F23F57005D6050 /* CloudMemoTests */,
 				B0BE5AA827F23F57005D6050 /* CloudMemoUITests */,
-				B0BE5A8627F23F52005D6050 /* Products */,
 				6B0CE7DBAB3811E2E17C1AB2 /* Pods */,
-				5BE0E5DE9DFC322244EB9F1B /* Frameworks */,
+				823C490D27FEB6FC00FD63E7 /* CloudMemoUITests.xctest */,
+				820787DD280CFB4200822826 /* CloudMemo.app */,
+				820787DE280CFB4200822826 /* CloudMemoTests.xctest */,
+				7902542D783B30253CF1E76E /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		B0BE5A8627F23F52005D6050 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B0BE5A8527F23F52005D6050 /* CloudMemo.app */,
-				B0BE5A9B27F23F57005D6050 /* CloudMemoTests.xctest */,
-				B0BE5AA527F23F57005D6050 /* CloudMemoUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B0BE5A8727F23F52005D6050 /* CloudMemo */ = {
 			isa = PBXGroup;
 			children = (
-				B0BE5AB827F25458005D6050 /* GoogleService-Info.plist */,
+				823C490B27FEB63000FD63E7 /* GoogleService-Info.plist */,
 				B0BE5A8827F23F52005D6050 /* AppDelegate.swift */,
 				B0BE5A8A27F23F52005D6050 /* SceneDelegate.swift */,
 				B0BE5ABA27F2590E005D6050 /* Model */,
@@ -171,7 +165,6 @@
 				B0BE5A9327F23F56005D6050 /* LaunchScreen.storyboard */,
 				B0BE5A9627F23F56005D6050 /* Info.plist */,
 				B0769A6A27F49BBE00D13ABF /* Constants.swift */,
-				B0BE5ABD27F26CFD005D6050 /* Font */,
 			);
 			path = CloudMemo;
 			sourceTree = "<group>";
@@ -198,6 +191,7 @@
 			children = (
 				B0769A7027F49FA400D13ABF /* Container.swift */,
 				B0B884CB27F7E3380045FCFE /* Folder.swift */,
+				820787DF280CFD3000822826 /* Empty.swift */,
 				B0B884CD27F7E4750045FCFE /* File.swift */,
 			);
 			path = Model;
@@ -210,6 +204,7 @@
 				B0BE5AC227F2A24B005D6050 /* SignInViewController.swift */,
 				B0BE5AC427F2A265005D6050 /* RegisterViewController.swift */,
 				B0769A6E27F49E0F00D13ABF /* DirectoryViewController.swift */,
+				8235670328167902003D98C5 /* FileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,17 +214,9 @@
 			children = (
 				B0BE5A8E27F23F52005D6050 /* Main.storyboard */,
 				B0B884CF27F8DE230045FCFE /* ContainerCell.swift */,
-				B0B884D027F8DE240045FCFE /* ContainerCell.xib */,
+				B0B884D027F8DE240045FCFE /* ContainerCellNib.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		B0BE5ABD27F26CFD005D6050 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				B0BE5AC027F26D46005D6050 /* AestheticRegular-8M5dM.ttf */,
-			);
-			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +238,7 @@
 			);
 			name = CloudMemo;
 			productName = CloudMemo;
-			productReference = B0BE5A8527F23F52005D6050 /* CloudMemo.app */;
+			productReference = 820787DD280CFB4200822826 /* CloudMemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B0BE5A9A27F23F57005D6050 /* CloudMemoTests */ = {
@@ -270,7 +257,7 @@
 			);
 			name = CloudMemoTests;
 			productName = CloudMemoTests;
-			productReference = B0BE5A9B27F23F57005D6050 /* CloudMemoTests.xctest */;
+			productReference = 820787DE280CFB4200822826 /* CloudMemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B0BE5AA427F23F57005D6050 /* CloudMemoUITests */ = {
@@ -290,7 +277,7 @@
 			);
 			name = CloudMemoUITests;
 			productName = CloudMemoUITests;
-			productReference = B0BE5AA527F23F57005D6050 /* CloudMemoUITests.xctest */;
+			productReference = 823C490D27FEB6FC00FD63E7 /* CloudMemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +312,7 @@
 				Base,
 			);
 			mainGroup = B0BE5A7C27F23F52005D6050;
-			productRefGroup = B0BE5A8627F23F52005D6050 /* Products */;
+			productRefGroup = B0BE5A7C27F23F52005D6050;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -342,11 +329,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BE5A9527F23F56005D6050 /* LaunchScreen.storyboard in Resources */,
-				B0BE5AB927F25458005D6050 /* GoogleService-Info.plist in Resources */,
 				B0BE5A9227F23F56005D6050 /* Assets.xcassets in Resources */,
-				B0B884D227F8DE240045FCFE /* ContainerCell.xib in Resources */,
+				B0B884D227F8DE240045FCFE /* ContainerCellNib.xib in Resources */,
 				B0BE5A9027F23F52005D6050 /* Main.storyboard in Resources */,
-				B0BE5AC127F26D46005D6050 /* AestheticRegular-8M5dM.ttf in Resources */,
+				823C490C27FEB63000FD63E7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +465,8 @@
 				B0BE5A8D27F23F52005D6050 /* RootViewController.swift in Sources */,
 				B0769A6F27F49E0F00D13ABF /* DirectoryViewController.swift in Sources */,
 				B0BE5A8927F23F52005D6050 /* AppDelegate.swift in Sources */,
+				820787E0280CFD3000822826 /* Empty.swift in Sources */,
+				8235670428167902003D98C5 /* FileViewController.swift in Sources */,
 				B0B884CE27F7E4750045FCFE /* File.swift in Sources */,
 				B0769A7127F49FA400D13ABF /* Container.swift in Sources */,
 				B0BE5A8B27F23F52005D6050 /* SceneDelegate.swift in Sources */,
@@ -718,8 +706,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ZMMNVG4D;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -738,8 +728,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ZMMNVG4D;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -759,6 +751,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ZMMNVG4D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chunhongchan.CloudMemoUITests;
@@ -777,6 +770,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ZMMNVG4D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chunhongchan.CloudMemoUITests;

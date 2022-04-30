@@ -8,6 +8,7 @@ target 'CloudMemo' do
   # Pods for CloudMemo
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'SWTableViewCell', '~> 0.3.7'
 
   target 'CloudMemoTests' do
     inherit! :search_paths

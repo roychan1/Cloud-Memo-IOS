@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>879196996608-iccl8gk9b0gg0f1f6n6192cgupb6rrco.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.879196996608-iccl8gk9b0gg0f1f6n6192cgupb6rrco</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCLx-O9q3Rz99EaQG-gSQSyQE_8rdkzQFQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>879196996608</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>chunhongchan.CloudMemo</string>
+	<key>PROJECT_ID</key>
+	<string>cloudmemo-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cloudmemo-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:879196996608:ios:089bf07dd685ea97d044e5</string>
+</dict>
+</plist>

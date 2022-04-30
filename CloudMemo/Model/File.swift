@@ -8,7 +8,8 @@
 import Foundation
 
 struct File : Container {
-    var name : String
-    
+    var name: String
+    var type: String
+    var created: Date
     var content : String = ""
 }

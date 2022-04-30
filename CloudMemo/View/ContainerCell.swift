@@ -6,12 +6,12 @@
 //
 
 import UIKit
+import SWTableViewCell
 
-class ContainerCell: UITableViewCell {
-
-    @IBOutlet weak var arrowLabel: UILabel!
+class ContainerCell: SWTableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var bracketImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

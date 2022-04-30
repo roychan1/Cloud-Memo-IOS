@@ -9,6 +9,7 @@ import Foundation
 
 struct Folder : Container {
     var name: String
-    
+    var type: String
+    var created: Date
     var contains : [Container] = []
 }
