@@ -13,14 +13,14 @@ In the launch screen, there is a login button and a register button, which will 
 # 2. Home Directory
 The Home Directory will be empty initially, but new memo files and folders can be created by clicking the "+" button on the top right of the screen. There will be an option for making a new file or a new folder. The name for the new file or folder cannot be left blank. 
 
-
+![Alt Text](https://media.giphy.com/media/dFBitxbxypwaVU7uHi/giphy.gif)
 
 # 3. Folder
 clicking an existing folder will redirect you to the files/ folders within that folder
 
-
+![Alt Text](https://media.giphy.com/media/zoHiybitZDYYtzc0Nu/giphy.gif)
 
 # 4. File
 click on a file allows you to edit a text memo file, and its content will be saved if you have chosen to save the content when exiting by clicking the "<" button on the top left of the screen.
 
-
+![Alt Text](https://media.giphy.com/media/e1vfCLpkW6sniI0zIO/giphy.gif)
